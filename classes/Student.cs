@@ -9,11 +9,10 @@ namespace TestSelf.classes
         public string name;
         public int age;
         private Work job;
-        public Student(string name, int age, string job)
+        public Student(string name, int age)
         {
             this.name = name;
             this.age = age;
-            this.job = new Work(job);
         }
     }
 }
