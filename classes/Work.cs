@@ -19,5 +19,13 @@ namespace TestSelf.classes
             Console.WriteLine(System.DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.fff"));
             Console.WriteLine("remove some job " + msg);
         }
+        public void addWork()
+        {
+            Console.WriteLine("i wanna to add work");
+        }
+        public void removeWork()
+        {
+            Console.WriteLine("i wanna to removework");
+        }
     }
 }
