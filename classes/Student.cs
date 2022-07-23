@@ -8,6 +8,7 @@ namespace TestSelf.classes
     {
         public string name;
         public int age;
+        private Work job;
         public Student(string name, int age)
         {
             this.name = name;
