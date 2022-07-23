@@ -8,7 +8,16 @@ namespace TestSelf.classes
     {
         public Work()
         {
-
+            
+        }
+        public void addWork(string msg)
+        {
+            Console.WriteLine("i wanna to add" + msg);
+        }
+        public void removeWork(string msg)
+        {
+            Console.WriteLine(System.DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.fff"));
+            Console.WriteLine("remove some job " + msg);
         }
     }
 }
