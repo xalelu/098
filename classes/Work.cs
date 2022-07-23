@@ -10,5 +10,13 @@ namespace TestSelf.classes
         {
 
         }
+        public void addWork()
+        {
+            Console.WriteLine("i wanna to add work");
+        }
+        public void removeWork()
+        {
+            Console.WriteLine("i wanna to removework");
+        }
     }
 }
