@@ -6,7 +6,7 @@ namespace TestSelf
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! where is you?");
+            Console.WriteLine("Hello World! ok, that's right?");
         }
     }
 }
