@@ -20,5 +20,9 @@ namespace TestSelf.classes
         {
             sts.Remove(num);
         }
+        public bool checkStudentExists(Student st)
+        {
+            return true;
+        }
     }
 }
