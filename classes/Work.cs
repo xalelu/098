@@ -6,9 +6,14 @@ namespace TestSelf.classes
 {
     class Work
     {
+        public string descript;
         public Work()
         {
-
+            
+        }
+        public Work(string descript)
+        {
+            this.descript = descript;
         }
     }
 }
